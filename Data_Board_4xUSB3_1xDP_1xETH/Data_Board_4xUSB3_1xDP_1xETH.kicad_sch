@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9071f7f1-0e81-4748-b292-7c8de27e755d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 49.53)
+		(size 35.56 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b5cf3601-8a9b-41e2-893c-97bbe272562a")
+		(property "Sheetname" "DFP_USB"
+			(at 16.51 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DFP_USB.kicad_sch"
+			(at 16.51 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Board_4xUSB3_1xDP_1xETH"
+				(path "/9071f7f1-0e81-4748-b292-7c8de27e755d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 17.78)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fcf9955c-b4af-4ab6-89af-00701aa16848")
+		(property "Sheetname" "UFP"
+			(at 16.51 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UFP.kicad_sch"
+			(at 16.51 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Board_4xUSB3_1xDP_1xETH"
+				(path "/9071f7f1-0e81-4748-b292-7c8de27e755d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
