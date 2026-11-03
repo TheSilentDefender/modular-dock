@@ -3510,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 133.35) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0872c657-9589-4bdc-9295-27d1465cdbb7")
+	)
+	(wire
+		(pts
 			(xy 379.73 78.74) (xy 370.84 78.74)
 		)
 		(stroke
@@ -3737,6 +3747,16 @@
 			(type default)
 		)
 		(uuid "2e22c689-1231-46a7-9ed4-45cc3907c366")
+	)
+	(wire
+		(pts
+			(xy 238.76 138.43) (xy 241.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6b8847-5550-4040-9844-35e414dd9ee5")
 	)
 	(wire
 		(pts
@@ -4187,6 +4207,16 @@
 			(type default)
 		)
 		(uuid "73c681a3-94d2-497b-bd93-d857c1e3f7e7")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749810fc-bc09-4bf2-938e-6f85c66fb5cb")
 	)
 	(wire
 		(pts
@@ -4750,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 138.43) (xy 196.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb67e440-00f9-4626-bd37-4e51df9777e6")
+	)
+	(wire
+		(pts
 			(xy 345.44 93.98) (xy 354.33 93.98)
 		)
 		(stroke
@@ -5287,54 +5327,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa3b52c4-47a7-4d65-92ab-09ea61163aa7")
-	)
-	(global_label "DRV_SUP"
-		(shape input)
-		(at 200.66 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a0ea308-3129-4ed1-a1ca-fc0a78dd640e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 144.7414 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DRV_SUP"
-		(shape input)
-		(at 238.76 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eccb8f9a-e14d-40bd-99f4-9290b99e2339")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.76 144.7414 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(hierarchical_label "~{INT}"
 		(shape input)
@@ -9995,6 +9987,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65177c30-3c7b-4bd3-8377-e1d5aafd238e")
+		(property "Reference" "#PWR054"
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd19c86b-c08d-4dae-886c-d63504f97ffc")
+		)
+		(instances
+			(project "Power_Board_PD_240W"
+				(path "/dccfca4c-1354-40bc-b51e-4e817b3777d6/e1fd8bf8-fb78-4972-a526-ce34e8918d06"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 74.93 0)
 		(mirror x)
@@ -10267,6 +10337,84 @@
 			(project "Power_Board_PD_240W"
 				(path "/dccfca4c-1354-40bc-b51e-4e817b3777d6/e1fd8bf8-fb78-4972-a526-ce34e8918d06"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ea744a9-fbee-4c48-9594-c35f0390304a")
+		(property "Reference" "#PWR053"
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1e37dc4-8057-4402-a620-b726adb51347")
+		)
+		(instances
+			(project "Power_Board_PD_240W"
+				(path "/dccfca4c-1354-40bc-b51e-4e817b3777d6/e1fd8bf8-fb78-4972-a526-ce34e8918d06"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
